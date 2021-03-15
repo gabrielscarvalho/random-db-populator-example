@@ -47,4 +47,16 @@ console.log(database.rollback().join('\n'));
 // Run to see the result:
 // node scenarios/1-simplest.js 
 
+// Result:
+// INSERT INTO "user" ("id", "name", "surname", "email", "gender", "is_active", "birth", "updated_at", "created_at", "phone") VALUES (11, 'John', 'Austin', 'john@doe.com', 'M', true, '2002-12-10', '2019-02-12 12:26:04', now(), '00 103-42013');
+// INSERT INTO "user" ("id", "name", "surname", "email", "gender", "is_active", "birth", "updated_at", "created_at", "phone") VALUES (12, 'Paul', 'Nguyen', 'teged@ritnurka.ni', 'F', false, '2003-05-01', '2019-02-25 07:32:49', now(), '00 103-42013');
+// INSERT INTO "user" ("id", "name", "surname", "email", "gender", "is_active", "birth", "updated_at", "created_at", "phone") VALUES (13, 'Sarah', 'Love', 'cuv@kel.cl', 'F', false, '2004-08-13', '2019-08-10 12:46:11', now(), '00 103-42013');
+// /*  --- ROLLBACK */ 
+// DELETE FROM "user" WHERE "id"=13 AND "email"='cuv@kel.cl';
+// DELETE FROM "user" WHERE "id"=12 AND "email"='teged@ritnurka.ni';
+// DELETE FROM "user" WHERE "id"=11 AND "email"='john@doe.com';
+
+
+
+
 

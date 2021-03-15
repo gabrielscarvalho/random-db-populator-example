@@ -31,4 +31,5 @@ console.log(database.toSQL().join('\n'));
 // Run to see the result:
 // node scenarios/6-new-value-generator.js
 
-
+// Result:
+// INSERT INTO "user" ("probability", "probability2") VALUES ('lower than 0.5', 0.75);

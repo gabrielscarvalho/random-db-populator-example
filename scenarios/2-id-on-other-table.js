@@ -40,3 +40,14 @@ console.log(database.rollback().join('\n'));
 // Run to see the result:
 // node scenarios/2-id-on-other-table.js
 
+// Result
+
+// INSERT INTO "user" ("id") VALUES (-102);
+// INSERT INTO "address" ("id", "user_id") VALUES (-199, -102);
+// INSERT INTO "user" ("id") VALUES (-104);
+// INSERT INTO "address" ("id", "user_id") VALUES (-198, -104);
+// /*  --- ROLLBACK */ 
+// DELETE FROM "address" WHERE "id"=-198;
+// DELETE FROM "user" WHERE "id"=-104;
+// DELETE FROM "address" WHERE "id"=-199;
+// DELETE FROM "user" WHERE "id"=-102;

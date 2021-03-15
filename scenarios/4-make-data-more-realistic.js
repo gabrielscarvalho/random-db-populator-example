@@ -39,3 +39,9 @@ console.log(database.toSQL().join("\n"));
 
 // Run to see the result:
 // node scenarios/4-make-data-more-realistic.js
+
+// Result
+
+// INSERT INTO "order" ("id", "total_price", "freight_price", "item_price", "discount_price") VALUES (201, 133.56, 23.20, 126.59, 16.23);
+// INSERT INTO "order" ("id", "total_price", "freight_price", "item_price", "discount_price") VALUES (202, 111.11, 12.89, 114.10, 15.88);
+// INSERT INTO "order" ("id", "total_price", "freight_price", "item_price", "discount_price") VALUES (203, 156.24, 49.62, 127.58, 20.96);
