@@ -6,8 +6,8 @@ Give you some examples of how to use [random-db-populator](https://www.npmjs.com
 
 ```
 npm install
-node scenarios/1-simplest.js
+node scenarios/<scenario-name>.js
 ```
-And see the result on console.
+Check out all scenarios on console.
 
 Have fun checking the examples!
