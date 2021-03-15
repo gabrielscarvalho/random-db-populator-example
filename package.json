@@ -1,0 +1,16 @@
+{
+  "name": "random-db-populator-use",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sql": "ts-node index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "random-db-populator": "^0.0.6",
+    "ts-node": "^9.1.1"
+  }
+}
