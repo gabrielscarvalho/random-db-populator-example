@@ -5,12 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sql": "ts-node index.ts"
+    "sql": "ts-node"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "random-db-populator": "^0.0.6",
+    "random-db-populator": "0.0.9",
     "ts-node": "^9.1.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.3"
   }
 }

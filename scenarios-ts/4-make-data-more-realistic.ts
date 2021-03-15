@@ -1,5 +1,5 @@
-const { PostgresDatabase } = require("random-db-populator/dist/shortcut/database");
-const { AutoIncrement, Random } = require("random-db-populator/dist/shortcut/value-gen");
+import { PostgresDatabase }  from "random-db-populator/dist/index";
+import { AutoIncrement, Random }  from "random-db-populator/dist/index";
 
 /**
  * In this scenario, we have a function that is called after the data is generated.

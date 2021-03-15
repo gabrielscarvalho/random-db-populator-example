@@ -1,7 +1,7 @@
 
-const { Fixed } = require('random-db-populator/dist/core/value-generator/fixed');
-const { PostgresDatabase } = require('random-db-populator/dist/shortcut/database');
-const { AutoIncrement, Random, DateGen } = require('random-db-populator/dist/shortcut/value-gen');
+import { Fixed }  from 'random-db-populator/dist/index';
+import { PostgresDatabase } from 'random-db-populator/dist/index';
+import { AutoIncrement, Random, DateGen } from 'random-db-populator/dist/index';
 
 
 /**
@@ -20,7 +20,6 @@ const autoIncrement = new AutoIncrement();
 
 autoIncrement
   .initialId('user.id', 10); // First will be id = 11
-
 
 database.addTable('user')
   .addColumn('id', 'int', autoIncrement.valueGen('user.id'))

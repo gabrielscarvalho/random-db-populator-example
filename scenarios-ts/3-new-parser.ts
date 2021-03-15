@@ -1,7 +1,7 @@
 
-const { PostgresDatabase } = require('random-db-populator/dist/shortcut/database');
-const { AutoIncrement, Random, DateGen } = require('random-db-populator/dist/shortcut/value-gen');
-const { Parser } = require('random-db-populator/dist/shortcut/parser');
+const { PostgresDatabase } = require('random-db-populator/dist/index');
+const { AutoIncrement, Random, DateGen } = require('random-db-populator/dist/index');
+const { Parser } = require('random-db-populator/dist/index');
 
 
 /**

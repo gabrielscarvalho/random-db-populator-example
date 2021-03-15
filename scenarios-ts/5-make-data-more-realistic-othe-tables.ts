@@ -1,6 +1,6 @@
-const { LastValue } = require('random-db-populator/dist/core/value-generator/last-value');
-const { PostgresDatabase } = require("random-db-populator/dist/shortcut/database");
-const { AutoIncrement, Random } = require("random-db-populator/dist/shortcut/value-gen");
+import { LastValue }  from 'random-db-populator/dist/index';
+import { PostgresDatabase }  from 'random-db-populator/dist/index';
+import { AutoIncrement, Random }  from 'random-db-populator/dist/index';
 
 /**
  * In this scenario, we generate values in other table, that should affect the total price of our "order" table.

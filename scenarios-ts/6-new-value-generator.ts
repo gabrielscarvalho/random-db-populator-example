@@ -1,5 +1,5 @@
 
-const { PostgresDatabase } = require('random-db-populator/dist/shortcut/database');
+import { PostgresDatabase } from 'random-db-populator/dist/index';
 
 /**
  * Sometimes you might want to create you own value generator.

@@ -1,6 +1,6 @@
 
-const { PostgresDatabase } = require('random-db-populator/dist/shortcut/database');
-const { AutoIncrement, Random, LastValue } = require('random-db-populator/dist/shortcut/value-gen');
+import { PostgresDatabase } from 'random-db-populator/dist/index';
+import { AutoIncrement, Random, LastValue } from 'random-db-populator/dist/index';
 
 const database = new PostgresDatabase();
 const autoIncrement = new AutoIncrement();
