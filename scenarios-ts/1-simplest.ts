@@ -23,7 +23,7 @@ autoIncrement
 
 database.addTable('user')
   .addColumn('id', 'int', autoIncrement.valueGen('user.id'))
-  .addColumn('name', 'string', Random.Name())
+  .addColumn('name', 'string', Random.FirstName())
   .addColumn('surname', 'string', Random.LastName())
   .addColumn('email', 'string', Random.Email())
   .addColumn('gender','string', Random.PickOne(['M', 'F']))
