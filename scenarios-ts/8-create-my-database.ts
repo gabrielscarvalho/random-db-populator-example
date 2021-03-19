@@ -18,6 +18,7 @@ export class MyDatabaseDatabase extends Database implements iDatabase {
 
 
     // Add the parsers your database will have :)
+    // Check scenarios/3-new-parser.js
     this.addParser(new StringParser(reservedWords));
     this.addParser(new NumberParser(reservedWords));
     this.addParser(new IntParser(reservedWords));
