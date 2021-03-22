@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "random-db-populator": "0.0.35",
+    "random-db-populator": "1.0.0",
     "ts-node": "^9.1.1"
   },
   "devDependencies": {

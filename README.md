@@ -2,6 +2,8 @@
 
 Give you some examples of how to use [random-db-populator](https://www.npmjs.com/package/random-db-populator).
 
+Check: [official docs](https://github.com/gabrielscarvalho/random-db-populator/wiki)
+
 ## How to use it?
 
 Install:
